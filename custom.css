@@ -1,0 +1,311 @@
+body{
+    background: bisque;
+}
+
+.container{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+.container span{
+    color:tomato;
+    text-transform: uppercase;
+    display: block;
+}
+
+.text1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size:40px;
+    font-weight: 1000;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+}
+
+.box{
+    position:relative;
+    width:200px;
+    height: 150px;
+    margin: 20px;
+    background-color:gainsboro;
+    }
+
+
+.box:hover{
+    position:relative;
+    width:200px;
+    height: 150px;
+    margin: 20px;
+
+    }
+
+.bigbox{
+    position:relative;
+    width:330px;
+    height: 150px;
+    margin: 20px;
+
+    }
+
+.bigbox:hover{
+    position:relative;
+    width:330px;
+    height: 150px;
+    margin: 20px;
+
+    }
+
+
+
+/* footer style  */
+.mbr-text{
+    color:white;
+}
+
+/* slider */
+.slider_wrapper {
+    /* background: black; */
+    background-image:
+    radial-gradient(
+      white,
+      black
+    );
+    margin-top: -5px;
+    padding-top: 24px;
+}
+.slider_bullet_img {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.offer-name {
+    background: white;
+    /* border-bottom: 1px solid darkgray; */
+    padding: 5px;
+    padding-left: 19px;
+    font-weight: 400;
+}
+.offer-description {
+    color: white;
+    font-size: 14px;
+    overflow: hidden;
+    max-height: 85px;
+}
+
+
+
+@media only screen and (max-width: 767px){
+
+        .box{
+            position:relative;
+            width: -webkit-fill-available;
+    height: 150px;
+    margin: 20px;
+
+
+        }
+    
+        .bigbox{
+            position:relative;
+            width: -webkit-fill-available;
+            height: 150px;
+            margin: 20px;
+    
+        }
+
+
+        .wrapper{
+
+          position:relative;
+          width:90%;
+          height: auto;
+          padding-left: 20px;
+          padding-right: 20px;
+          margin: 20px;
+        }
+    
+        .box:hover{
+          position:relative;
+          width:90%;
+          height: auto;
+          padding-left: 20px;
+          padding-right: 20px;
+          margin: 20px;
+       
+        }
+    
+        .bigbox:hover{
+          position:relative;
+          width:90%;
+          height: auto;
+          padding-left: 20px;
+          padding-right: 20px;
+          margin: 20px;
+            }
+    
+        .content{
+            position: absolute;
+            top: 75%;
+            left: 40%;
+            transform: translate(-40%,-40%);
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 10px;
+        }
+            
+    
+    
+          .overlay{
+            position:relative;
+            position:relative;
+            width:90%;
+            height: auto;
+            margin: 20px;
+            margin-top: 35px;
+            opacity: 0.8;
+            transition: .8s ease;
+            background: rgba(255, 119,29,0.9);
+          }
+    
+        .text1{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            font-size:22px;
+            font-weight: 1000;
+            font-weight: bold;
+            letter-spacing: 5px;
+        
+        }
+        body{
+            background: white;
+        }
+    
+        .offer-name {
+            background: white;
+            /* border-bottom: 1px solid darkgray; */
+            padding: 5px;
+            padding-left: 19px;
+            font-weight: 400;
+        }
+        .offer-description {
+            color: white;
+            font-size: 14px;
+            overflow: hidden;
+            max-height: 85px;
+        }
+        
+
+
+
+    .overlay{
+        position: relative;
+        width: 90%;
+        height: 40%;
+    }
+
+    .content{
+        position: absolute;
+        top: 75%;
+        left: 40%;
+        transform: translate(-40%,-40%);
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 10px;
+    }
+    
+  
+  
+    .overlay{
+        position:relative;
+        position:relative;
+        width:90%;
+        height: auto;
+        margin: 20px;
+        margin-top: 35px;
+        opacity: 0.8;
+        transition: .8s ease;
+        background: rgba(255, 119,29,0.9);
+    }
+
+    .text1{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size:22px;
+        font-weight: 1000;
+        font-weight: bold;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    body{
+        background: white;
+    }
+    
+    .offer-name {
+        background: white;
+        /* border-bottom: 1px solid darkgray; */
+        padding: 5px;
+        padding-left: 19px;
+        font-weight: 400;
+    }
+    .offer-description {
+        color: white;
+        font-size: 14px;
+        overflow: hidden;
+        max-height: 85px;
+    }
+}
+
+
+
+@media (max-width: 410px){
+
+    .box{
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin-left: 0px;
+
+    }
+
+    .bigbox{
+        position: relative;
+        width: 100%;
+        height: 100px;
+        margin-left: 0px;
+    }
+
+    .wrapper{
+
+      position:relative;
+      width:-webkit-fill-available;
+      height: auto;
+
+    }
+
+
+
+    
+    .overlay{
+        position: relative;
+        width:-webkit-fill-available ;
+        height:auto;
+    }
+
+    
+  
+
+}
+
+@media only screen{
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+
+
+
+}}
